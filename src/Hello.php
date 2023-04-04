@@ -1,9 +1,12 @@
 <?php
+namespace App;
+class Hello
+{
+ 
 
-class Hello 
-{
-public function talk(string $hello): string
-{
-return 'Hello World!';
-}
+  public function talk(): string
+  {
+    $name = 'Hello World!';
+    return $name;
+  }
 }

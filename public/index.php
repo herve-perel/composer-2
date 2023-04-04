@@ -1,3 +1,9 @@
 <?php
+require '../src/Hello.php';
+use App\Hello;
 
-return talk();
+
+$hello = new Hello();
+echo $hello->talk();
+
+
